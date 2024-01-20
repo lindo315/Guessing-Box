@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Guessing Box Game!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guessing Box</h1>
+      <p class="earn">(Earn 10k points to win!)</p>
+      <button class="btn again">Again</button>
+    </header>
+    <main>
+      <!-- Boxes -->
+      <section class="top">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+      </section>
+    </main>
+    <footer>
+      <!-- Message -->
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check</button>
+      </section>
+
+      <!-- Scores -->
+      <section class="right">
+        <p class="message">Pick a box...</p>
+        <p class="text-score">Score: <span class="score">0</span></p>
+        <p class="text-checks">Checks: <span class="checks">5</span></p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
